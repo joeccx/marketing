@@ -9,6 +9,7 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 
 <body id="ccxBody">
@@ -81,7 +82,8 @@ if( window.self != window.top ) {
   // var frameCSS = headTag + '<style type="text/css">body{zoom:2;}</style>';
   // document.getElementsByTagName('head')[0].innerHTML = frameCSS;
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    document.getElementsByTagName('body').style.zoom = 2;
+    // document.getElementById('ccxBody').style.zoom = 2;
+    $('html, body').css('zoom', '2');
   }
 }
 </script>
