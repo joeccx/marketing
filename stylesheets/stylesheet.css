@@ -343,12 +343,12 @@ a:hover {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   body {
-    zoom:2;
+    zoom:2 !important;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   body {
-    zoom:3;
+    zoom:3 !important;
   }
 }
 
